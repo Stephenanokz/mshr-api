@@ -9,6 +9,7 @@ const postRoutes = require("./routes/posts");
 const galleryImageRoutes = require("./routes/galleryImages");
 const vocationVideoRoutes = require("./routes/vocationVideos");
 const quoteRoutes = require("./routes/quotes");
+const faqRoutes = require("./routes/faqs");
 const apostolateRoutes = require("./routes/apostolates");
 const apostolateTypeRoutes = require("./routes/apostolateTypes");
 
@@ -39,6 +40,7 @@ app.use("/api/posts", postRoutes);
 app.use("/api/galleryimages", galleryImageRoutes);
 app.use("/api/vocationvideos", vocationVideoRoutes);
 app.use("/api/quotes", quoteRoutes);
+app.use("/api/faqs", faqRoutes);
 app.use("/api/apostolates", apostolateRoutes);
 app.use("/api/apostolatetypes", apostolateTypeRoutes);
 
